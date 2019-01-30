@@ -1,5 +1,9 @@
 #include "Enemy.h"
 
+Enemy::Enemy()
+{
+
+}
 
 float Enemy::return_ge()
 {
