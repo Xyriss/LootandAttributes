@@ -32,7 +32,7 @@ void Player::add_exp(int exp)
 
 	else if (exp > exp_to_next_level)
 	{
-
+		lvl += 1;
 		//think pokemon exp 
 		int new_exp = exp - exp_to_next_level;
 		//calc exp to next level based on formula
